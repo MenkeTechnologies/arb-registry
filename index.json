@@ -1,7 +1,32 @@
 {
+  "apt": {
+    "desc": "Upgradable APT packages, with a live count",
+    "repo": "https://github.com/MenkeTechnologies/arb-apt.git",
+    "version": "0.1.0"
+  },
   "battery": {
     "desc": "macOS battery charge gauge, self-sourced from pmset",
     "repo": "https://github.com/MenkeTechnologies/arb-battery.git",
+    "version": "0.1.0"
+  },
+  "brew": {
+    "desc": "Outdated Homebrew formulae, with a live count",
+    "repo": "https://github.com/MenkeTechnologies/arb-brew.git",
+    "version": "0.1.0"
+  },
+  "brewsvc": {
+    "desc": "Homebrew-managed background services and their state",
+    "repo": "https://github.com/MenkeTechnologies/arb-brewsvc.git",
+    "version": "0.1.0"
+  },
+  "cal": {
+    "desc": "The current month's calendar",
+    "repo": "https://github.com/MenkeTechnologies/arb-cal.git",
+    "version": "0.1.0"
+  },
+  "crontab": {
+    "desc": "The current user's scheduled cron jobs",
+    "repo": "https://github.com/MenkeTechnologies/arb-crontab.git",
     "version": "0.1.0"
   },
   "diskwatch": {
@@ -29,14 +54,34 @@
     "repo": "https://github.com/MenkeTechnologies/arb-gitauthors.git",
     "version": "0.1.0"
   },
+  "gitstatus": {
+    "desc": "Short git working-tree status",
+    "repo": "https://github.com/MenkeTechnologies/arb-gitstatus.git",
+    "version": "0.1.0"
+  },
   "gpu": {
     "desc": "NVIDIA GPU utilization sparkline + gauge, self-sourced from nvidia-smi",
     "repo": "https://github.com/MenkeTechnologies/arb-gpu.git",
     "version": "0.1.0"
   },
+  "inodes": {
+    "desc": "Per-filesystem inode usage",
+    "repo": "https://github.com/MenkeTechnologies/arb-inodes.git",
+    "version": "0.1.0"
+  },
+  "iotop": {
+    "desc": "Per-process disk I/O from iotop",
+    "repo": "https://github.com/MenkeTechnologies/arb-iotop.git",
+    "version": "0.1.0"
+  },
   "jsonlog": {
     "desc": "JSON-lines log viewer: a table of selected fields plus a per-level count bar chart.",
     "repo": "https://github.com/MenkeTechnologies/arb-jsonlog.git",
+    "version": "0.1.0"
+  },
+  "launchd": {
+    "desc": "macOS launchd jobs, their PID and status",
+    "repo": "https://github.com/MenkeTechnologies/arb-launchd.git",
     "version": "0.1.0"
   },
   "listeners": {
@@ -49,9 +94,24 @@
     "repo": "https://github.com/MenkeTechnologies/arb-logwatch.git",
     "version": "0.1.0"
   },
+  "lsblk": {
+    "desc": "Block devices, their size and mountpoints",
+    "repo": "https://github.com/MenkeTechnologies/arb-lsblk.git",
+    "version": "0.1.0"
+  },
   "memtop": {
     "desc": "Top processes by resident memory (RSS), refreshed every 2s.",
     "repo": "https://github.com/MenkeTechnologies/arb-memtop.git",
+    "version": "0.1.0"
+  },
+  "mount": {
+    "desc": "Currently mounted filesystems",
+    "repo": "https://github.com/MenkeTechnologies/arb-mount.git",
+    "version": "0.1.0"
+  },
+  "mpstat": {
+    "desc": "Per-CPU utilization from mpstat",
+    "repo": "https://github.com/MenkeTechnologies/arb-mpstat.git",
     "version": "0.1.0"
   },
   "netstates": {
@@ -59,9 +119,19 @@
     "repo": "https://github.com/MenkeTechnologies/arb-netstates.git",
     "version": "0.1.0"
   },
+  "npm": {
+    "desc": "Outdated npm dependencies in the current project",
+    "repo": "https://github.com/MenkeTechnologies/arb-npm.git",
+    "version": "0.1.0"
+  },
   "ollama": {
     "desc": "Live view of the models loaded in the local Ollama LLM server (ollama ps)",
     "repo": "https://github.com/MenkeTechnologies/arb-ollama.git",
+    "version": "0.1.0"
+  },
+  "pacman": {
+    "desc": "Pacman packages with pending updates",
+    "repo": "https://github.com/MenkeTechnologies/arb-pacman.git",
     "version": "0.1.0"
   },
   "ping": {
@@ -74,9 +144,29 @@
     "repo": "https://github.com/MenkeTechnologies/arb-pinglat.git",
     "version": "0.1.0"
   },
+  "pip": {
+    "desc": "Outdated pip packages",
+    "repo": "https://github.com/MenkeTechnologies/arb-pip.git",
+    "version": "0.1.0"
+  },
   "procmon": {
     "desc": "Top processes by CPU \u2014 a live, self-sourcing table sorted by CPU% descending.",
     "repo": "https://github.com/MenkeTechnologies/arb-procmon.git",
+    "version": "0.1.0"
+  },
+  "rustup": {
+    "desc": "Installed Rust toolchains",
+    "repo": "https://github.com/MenkeTechnologies/arb-rustup.git",
+    "version": "0.1.0"
+  },
+  "sensors": {
+    "desc": "Hardware temperature/fan/voltage readouts from lm-sensors",
+    "repo": "https://github.com/MenkeTechnologies/arb-sensors.git",
+    "version": "0.1.0"
+  },
+  "speedtest": {
+    "desc": "Ping/download/upload throughput from speedtest-cli",
+    "repo": "https://github.com/MenkeTechnologies/arb-speedtest.git",
     "version": "0.1.0"
   },
   "streamstat": {
@@ -84,14 +174,44 @@
     "repo": "https://github.com/MenkeTechnologies/arb-streamstat.git",
     "version": "0.1.0"
   },
+  "swap": {
+    "desc": "Active swap devices and their usage",
+    "repo": "https://github.com/MenkeTechnologies/arb-swap.git",
+    "version": "0.1.0"
+  },
+  "tokei": {
+    "desc": "Lines of code by language from tokei",
+    "repo": "https://github.com/MenkeTechnologies/arb-tokei.git",
+    "version": "0.1.0"
+  },
+  "ufw": {
+    "desc": "UFW firewall rules and status",
+    "repo": "https://github.com/MenkeTechnologies/arb-ufw.git",
+    "version": "0.1.0"
+  },
   "uptime": {
     "desc": "1-minute load-average sparkline, self-sourced from uptime",
     "repo": "https://github.com/MenkeTechnologies/arb-uptime.git",
     "version": "0.1.0"
   },
+  "usb": {
+    "desc": "Connected USB devices",
+    "repo": "https://github.com/MenkeTechnologies/arb-usb.git",
+    "version": "0.1.0"
+  },
   "weather": {
     "desc": "Current conditions from wttr.in, refreshed every 10 minutes",
     "repo": "https://github.com/MenkeTechnologies/arb-weather.git",
+    "version": "0.1.0"
+  },
+  "who": {
+    "desc": "Logged-in users, their tty, and login time",
+    "repo": "https://github.com/MenkeTechnologies/arb-who.git",
+    "version": "0.1.0"
+  },
+  "wifi": {
+    "desc": "Visible Wi-Fi networks by signal strength (nmcli)",
+    "repo": "https://github.com/MenkeTechnologies/arb-wifi.git",
     "version": "0.1.0"
   }
 }
