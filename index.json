@@ -19,6 +19,11 @@
     "repo": "https://github.com/MenkeTechnologies/arb-memtop.git",
     "version": "0.1.0"
   },
+  "netstates": {
+    "desc": "TCP connection-states histogram from netstat -an, polled every 3s",
+    "repo": "https://github.com/MenkeTechnologies/arb-netstates.git",
+    "version": "0.1.0"
+  },
   "pinglat": {
     "desc": "Live ping latency dashboard: a sparkline of round-trip times plus the latest value, self-sourced from ping.",
     "repo": "https://github.com/MenkeTechnologies/arb-pinglat.git",
