@@ -3,5 +3,10 @@
     "desc": "Live disk-usage table, self-sourced by polling df every 5s",
     "repo": "https://github.com/MenkeTechnologies/arb-diskwatch.git",
     "version": "0.1.0"
+  },
+  "procmon": {
+    "desc": "Top processes by CPU — a live, self-sourcing table sorted by CPU% descending.",
+    "repo": "https://github.com/MenkeTechnologies/arb-procmon.git",
+    "version": "0.1.0"
   }
 }
