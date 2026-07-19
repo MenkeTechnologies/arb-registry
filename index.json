@@ -9,6 +9,11 @@
     "repo": "https://github.com/MenkeTechnologies/arb-gitauthors.git",
     "version": "0.1.0"
   },
+  "listeners": {
+    "desc": "Live dashboard of listening TCP sockets, refreshed every 5s via lsof.",
+    "repo": "https://github.com/MenkeTechnologies/arb-listeners.git",
+    "version": "0.1.0"
+  },
   "memtop": {
     "desc": "Top processes by resident memory (RSS), refreshed every 2s.",
     "repo": "https://github.com/MenkeTechnologies/arb-memtop.git",
