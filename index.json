@@ -19,6 +19,11 @@
     "repo": "https://github.com/MenkeTechnologies/arb-listeners.git",
     "version": "0.1.0"
   },
+  "logwatch": {
+    "desc": "Live stream log-watcher — pipe a log into arb and highlight error/warn lines.",
+    "repo": "https://github.com/MenkeTechnologies/arb-logwatch.git",
+    "version": "0.1.0"
+  },
   "memtop": {
     "desc": "Top processes by resident memory (RSS), refreshed every 2s.",
     "repo": "https://github.com/MenkeTechnologies/arb-memtop.git",
