@@ -1,7 +1,17 @@
 {
+  "battery": {
+    "desc": "macOS battery charge gauge, self-sourced from pmset",
+    "repo": "https://github.com/MenkeTechnologies/arb-battery.git",
+    "version": "0.1.0"
+  },
   "diskwatch": {
     "desc": "Live disk-usage table, self-sourced by polling df every 5s",
     "repo": "https://github.com/MenkeTechnologies/arb-diskwatch.git",
+    "version": "0.1.0"
+  },
+  "du": {
+    "desc": "Largest immediate subdirectories bar chart, self-sourced from du",
+    "repo": "https://github.com/MenkeTechnologies/arb-du.git",
     "version": "0.1.0"
   },
   "envbrowser": {
@@ -9,9 +19,19 @@
     "repo": "https://github.com/MenkeTechnologies/arb-envbrowser.git",
     "version": "0.1.0"
   },
+  "free": {
+    "desc": "Used-vs-total memory gauge, self-sourced from free",
+    "repo": "https://github.com/MenkeTechnologies/arb-free.git",
+    "version": "0.1.0"
+  },
   "gitauthors": {
-    "desc": "Git commit activity by author for the current repo — a live bar chart of commit counts per author (top 15).",
+    "desc": "Git commit activity by author for the current repo \u2014 a live bar chart of commit counts per author (top 15).",
     "repo": "https://github.com/MenkeTechnologies/arb-gitauthors.git",
+    "version": "0.1.0"
+  },
+  "gpu": {
+    "desc": "NVIDIA GPU utilization sparkline + gauge, self-sourced from nvidia-smi",
+    "repo": "https://github.com/MenkeTechnologies/arb-gpu.git",
     "version": "0.1.0"
   },
   "jsonlog": {
@@ -25,7 +45,7 @@
     "version": "0.1.0"
   },
   "logwatch": {
-    "desc": "Live stream log-watcher — pipe a log into arb and highlight error/warn lines.",
+    "desc": "Live stream log-watcher \u2014 pipe a log into arb and highlight error/warn lines.",
     "repo": "https://github.com/MenkeTechnologies/arb-logwatch.git",
     "version": "0.1.0"
   },
@@ -39,19 +59,39 @@
     "repo": "https://github.com/MenkeTechnologies/arb-netstates.git",
     "version": "0.1.0"
   },
+  "ollama": {
+    "desc": "Live view of the models loaded in the local Ollama LLM server (ollama ps)",
+    "repo": "https://github.com/MenkeTechnologies/arb-ollama.git",
+    "version": "0.1.0"
+  },
+  "ping": {
+    "desc": "Round-trip latency sparkline, self-sourced by pinging once a second",
+    "repo": "https://github.com/MenkeTechnologies/arb-ping.git",
+    "version": "0.1.0"
+  },
   "pinglat": {
     "desc": "Live ping latency dashboard: a sparkline of round-trip times plus the latest value, self-sourced from ping.",
     "repo": "https://github.com/MenkeTechnologies/arb-pinglat.git",
     "version": "0.1.0"
   },
   "procmon": {
-    "desc": "Top processes by CPU — a live, self-sourcing table sorted by CPU% descending.",
+    "desc": "Top processes by CPU \u2014 a live, self-sourcing table sorted by CPU% descending.",
     "repo": "https://github.com/MenkeTechnologies/arb-procmon.git",
     "version": "0.1.0"
   },
   "streamstat": {
-    "desc": "Live stream statistics dashboard — line count, rate, and distinct-line count for any STDIN pipeline.",
+    "desc": "Live stream statistics dashboard \u2014 line count, rate, and distinct-line count for any STDIN pipeline.",
     "repo": "https://github.com/MenkeTechnologies/arb-streamstat.git",
+    "version": "0.1.0"
+  },
+  "uptime": {
+    "desc": "1-minute load-average sparkline, self-sourced from uptime",
+    "repo": "https://github.com/MenkeTechnologies/arb-uptime.git",
+    "version": "0.1.0"
+  },
+  "weather": {
+    "desc": "Current conditions from wttr.in, refreshed every 10 minutes",
+    "repo": "https://github.com/MenkeTechnologies/arb-weather.git",
     "version": "0.1.0"
   }
 }
