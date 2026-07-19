@@ -1,6 +1,6 @@
 {
   "diskwatch": {
-    "desc": "Live disk-usage bars, self-sourced by polling df every 5s",
+    "desc": "Live disk-usage table, self-sourced by polling df every 5s",
     "repo": "https://github.com/MenkeTechnologies/arb-diskwatch.git",
     "version": "0.1.0"
   }
