@@ -14,6 +14,11 @@
     "repo": "https://github.com/MenkeTechnologies/arb-gitauthors.git",
     "version": "0.1.0"
   },
+  "jsonlog": {
+    "desc": "JSON-lines log viewer: a table of selected fields plus a per-level count bar chart.",
+    "repo": "https://github.com/MenkeTechnologies/arb-jsonlog.git",
+    "version": "0.1.0"
+  },
   "listeners": {
     "desc": "Live dashboard of listening TCP sockets, refreshed every 5s via lsof.",
     "repo": "https://github.com/MenkeTechnologies/arb-listeners.git",
