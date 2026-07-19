@@ -9,6 +9,11 @@
     "repo": "https://github.com/MenkeTechnologies/arb-memtop.git",
     "version": "0.1.0"
   },
+  "pinglat": {
+    "desc": "Live ping latency dashboard: a sparkline of round-trip times plus the latest value, self-sourced from ping.",
+    "repo": "https://github.com/MenkeTechnologies/arb-pinglat.git",
+    "version": "0.1.0"
+  },
   "procmon": {
     "desc": "Top processes by CPU — a live, self-sourcing table sorted by CPU% descending.",
     "repo": "https://github.com/MenkeTechnologies/arb-procmon.git",
